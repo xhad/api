@@ -1,0 +1,11 @@
+services:
+  - postgresql
+
+install:
+  - npm install
+before_script:
+  - node utils/dbTools --travis
+
+language: node_js
+node_js:
+  - "v6.x"
