@@ -88,7 +88,7 @@ router.get('/whoami', privateApi, function(req, res) {
 });
 
 //TODO - use this method to update user's details
-router.post('/whoami', privateApi, function(req, res) {
+router.post('/', privateApi, function(req, res) {
   //if the token was valid a userId property is attached to the request
   res.send(200);
 });
