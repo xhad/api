@@ -1,0 +1,85 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - vantage > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-adapter > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > engine.io-client > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > socket.io-parser > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-parser > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > engine.io > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > debug:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:engine.io-client:20160426':
+    - vantage > socket.io-client > engine.io-client:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > engine.io-client:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:hoek:20180212':
+    - coinbase-exchange > request > hawk > hoek:
+        patched: '2019-03-31T07:05:37.819Z'
+    - coinbase-exchange > request > hawk > boom > hoek:
+        patched: '2019-03-31T07:05:37.819Z'
+    - coinbase-exchange > request > hawk > sntp > hoek:
+        patched: '2019-03-31T07:05:37.819Z'
+    - coinbase-exchange > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:lodash:20180130':
+    - vantage > vantage-auth-basic > lodash:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > vorpal > lodash:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > vorpal-repl > lodash:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > vorpal > inquirer > lodash:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:ms:20170412':
+    - vantage > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > engine.io > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-parser > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > debug > ms:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:negotiator:20160616':
+    - vantage > socket.io > engine.io > accepts > negotiator:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:tunnel-agent:20170305':
+    - coinbase-exchange > request > tunnel-agent:
+        patched: '2019-03-31T07:05:37.819Z'
+  'npm:ws:20160920':
+    - coinbase-exchange > ws:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > engine.io > ws:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io-client > engine.io-client > ws:
+        patched: '2019-03-31T07:05:37.819Z'
+    - vantage > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2019-03-31T07:05:37.819Z'
