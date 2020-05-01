@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:04:19.663Z'
+    - bookshelf > lodash:
+        patched: '2020-05-01T07:04:19.663Z'
+    - knex > lodash:
+        patched: '2020-05-01T07:04:19.663Z'
+    - async-eventemitter > async > lodash:
+        patched: '2020-05-01T07:04:19.663Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T07:04:19.663Z'
+    - coinbase-exchange > request > form-data > async > lodash:
+        patched: '2020-05-01T07:04:19.663Z'
